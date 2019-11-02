@@ -6,13 +6,27 @@ font-size: 20px;
 
 body {
     background-color: #01CCE4  ; 
+    margin-left: 27px;
 }
 
+.images {
+    display: flex;
+    flex-flow: column-reverse;
+}
 
+.row {
+    display: flex;
+    flex-flow: row;
+}
 
 img {
-    max-width: 500px;
+    /*max-width: 500px;*/
     border: 30px white solid;
+    /*max-height: 300px;*/
+    width:  466px;
+    height: 325px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 h1{
     font-size: 100px;
