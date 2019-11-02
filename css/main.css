@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+padding: 0;
+font-size: 20px;
+}
+
+body {
+    background-color: #01CCE4  ; 
+}
+
+
+
+img {
+    max-width: 500px;
+    border: 30px white solid;
+}
+h1{
+    font-size: 100px;
+    padding: 30px;
+    margin: 30px;
+    color: aliceblue;
+
+}
+.container{ 
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Modak', cursive;
+}
+
+.display-none {
+  display: none 
+}
+
+button {
+    padding: 0px 20px;
+    font-size: 18px;
+    background: white;
+    cursor: pointer;
+    margin: 15px;
+    text-shadow: 1px 2px 5px skyblue;
+
+    
+    
+}
+button:hover{
+    color: grey;
+    background-color:salmon;
+}
